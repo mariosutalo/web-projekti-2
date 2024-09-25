@@ -1,0 +1,31 @@
+.search-videos-input {
+    font-size: 18px;
+    padding: 18px 15px;
+    border-radius: 100px;
+    border-style: none;
+    background-color: rgb(232, 232, 232);
+    color: rgb(45, 45, 45);
+    width: 40%;
+}
+
+.search-videos-input:focus {
+    outline: none;
+}
+
+.search-button-img {
+    width: 30px;
+    height: 30px;
+}
+
+.search-video-btn {
+    padding: 17px 30px 17px 17px;
+    background-color: rgb(82, 82, 255);
+    border: none;
+    border-radius: 0px 100px 100px 0px;
+    margin-left: -80px;
+}
+
+.search-videos-div {
+    display: flex;
+    justify-content: center;
+}
