@@ -1,0 +1,20 @@
+.flex-container {
+    background-color: blueviolet;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.first-div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.second-div {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}

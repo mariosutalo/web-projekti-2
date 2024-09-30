@@ -6,6 +6,8 @@
     background-color: rgb(232, 232, 232);
     color: rgb(45, 45, 45);
     width: 40%;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+
 }
 
 .search-videos-input:focus {
@@ -28,4 +30,42 @@
 .search-videos-div {
     display: flex;
     justify-content: center;
+    transition: transform 0.15s ease-in-out;
+    margin-top: 40px;
+}
+
+.search-videos-div:hover {
+    transform: scale(1.05);
+}
+
+.video-category-img {
+    width: 70px;
+    height: 70px;
+    transition: transform 0.15s ease-in-out;
+}
+
+.video-category-img:hover {
+    transform: scale(1.1);
+}
+
+.video-category-p {
+    margin: 0;
+    margin-top: 10px;
+    color: rgb(193, 60, 60);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.video-category-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.video-categories-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
