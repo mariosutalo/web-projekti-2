@@ -9,12 +9,18 @@
 
 .first-child-div {
     background-color: blue;
-    width: 100px;
     height: 100px;
+    flex: 1;
 }
 
 .seconds-child-div {
     background-color: red;
-    width: 100px;
+    height: 100px;
+    width: 50px;
+}
+
+.third-child-div {
+    flex: 2;
+    background-color: yellow;
     height: 100px;
 }

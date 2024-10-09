@@ -1,0 +1,36 @@
+.title-p {
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.container-div {
+    display: flex;
+    gap: 20px;
+}
+
+.text-and-title-div {
+    background-color: aqua;
+    padding: 20px;
+    flex: 3;
+}
+
+.text-and-buttons-div {
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+
+.buttons-div {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.buttons-div button {
+    flex: 1;
+}
