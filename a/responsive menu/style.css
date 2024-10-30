@@ -1,0 +1,36 @@
+.site-logo-img {
+    width: 200px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.site-logo-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.site-header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header-nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.site-header-nav ul a {
+    color: rgb(184, 4, 52);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.site-header-nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+}
+
