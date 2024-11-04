@@ -52,16 +52,25 @@
         display: block;
     }
 
-    .header-nav ul {
+    .header-nav-ul {
         flex-direction: column;
         padding-inline-start: 0px;
         align-items: center;
         /* order: 1; */
+        position: fixed;
+        top: 90px;
+        right: -100%;
+        width: 100vw;
+        height: 100vh;
+        transition: right 0.3s ease-in;
+    }
+    .header-nav-visible {
+        right: 0px;
     }
 
     .menu-and-icon-div {
         flex-direction: column-reverse;
-        background-color: gray;
         align-items: center;
+        position: relative;
     }
 }
