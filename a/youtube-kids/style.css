@@ -86,7 +86,9 @@
 }
 
 .videos-div {
+    /* elementi se prikazuju u stupcima */
     display: grid;
+    /* četiri stupca jednake širine */
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
     margin-top: 20px;
@@ -99,8 +101,14 @@
     background-color: black;
     color: white;
     padding: 3px;
+    /* vrijeme na video je u dojnjem desnom kutu , da bi position
+    absolute imao efekta, roditelj ovog elemena mora biti position
+    relative */
     position: absolute;
+    /* ako je position absolute aktivam , bottom znači da će biti */
+    /* 10px od dna */
     bottom: 10px;
+    /* slično kao bottom */
     right: 5px;
 }
 
