@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Australia;
+    src: url(fonts/EduAUVICWANTPre-Regular.woff2);
+  }
+
+  @font-face {
+    font-family: Australia;
+    src: url(fonts/EduAUVICWANTPre-Bold.ttf);
+    font-weight: bold;
+  }
+
+.font-test-p {
+    font-family: Australia, Arial;
+    font-weight: bold;
+  }
