@@ -1,0 +1,62 @@
+
+
+.login-form {
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-form input[type="text"], input[type="password"], input[type="submit"] {
+    width: calc(100% - 20px);
+}
+
+.login-form h1 {
+    color: rgb(80, 80, 255);
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user-info-div {
+    padding: 20px 0px;
+}
+
+.user-info-div label {
+    text-transform: uppercase;
+    color: rgb(119, 119, 119);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.user-info-div input {
+    padding: 10px;
+    border: none;
+    background-color: rgb(232, 232, 232);
+}
+
+.user-info-div input:focus {
+    outline: none;
+}
+
+.remember-me-forgot-pass-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-me-div label {
+    color: rgb(119, 119, 119);
+}
+
+.remember-me-forgot-pass-div a {
+    color: rgb(80, 80, 255);
+    font-weight: 600;
+}
+
+.login-form input[type="submit"] {
+    background-color: rgb(80, 80, 255);
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+}

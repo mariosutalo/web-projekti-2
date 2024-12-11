@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="login" method="post" class="login-form">
+        <h1>Account Login</h1>
+        <div class="user-info-div">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div class="user-info-div">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div class="remember-me-forgot-pass-div">
+            <div class="remember-me-div">
+                <input type="checkbox" id="rememberme" name="rememberme" value="1">
+                <label for="rememberme">Remember Me</label>
+            </div>
+            <a href="/forgotpassword">Forgot Password?</a>
+        </div>
+        <input type="submit" value="LOG IN">
+    </form>
+</body>
+
+</html>
