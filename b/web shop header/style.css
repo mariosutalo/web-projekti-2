@@ -1,0 +1,60 @@
+:root {
+    --main-color: rgb(190,50,121);
+}
+
+.header-logo-img {
+    width: 140px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.user-login-btn, .cart-btn {
+    border: none;
+    background-color: var(--main-color);
+    border-radius: 9999px;
+    padding: 10px;
+    display: flex;
+}
+
+.user-login-btn:hover, .cart-btn:hover {
+    opacity: 0.8;
+}
+
+.user-login-btn>img, .cart-btn>img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.header-nav-ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.header-nav-ul a {
+    color: var(--main-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.header-nav-ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-btns-div {
+    display: flex;
+    gap: 20px;
+}
