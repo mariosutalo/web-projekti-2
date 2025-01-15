@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background-color: antiquewhite;
+    min-height: 500px;
+    background-image: url("assets/hero section pc shop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-content-div {
+    width: 1124px;
+}
+
+.hero-content-div > h1 {
+    font-size: 2rem;
+}
+
+.hero-content-div > p {
+    font-size: 1.6rem;
+}
+

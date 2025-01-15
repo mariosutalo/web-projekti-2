@@ -3,3 +3,5 @@ css selectors: https://www.w3schools.com/cssref/css_selectors.php
 css pseudoclasses: https://www.w3schools.com/css/css_pseudo_classes.asp
 html semantic elements: https://www.w3schools.com/html/html5_semantic_elements.asp
 css variables: https://www.w3schools.com/css/css3_variables.asp
+rem sizing units: https://www.freecodecamp.org/news/override-root-font-size-for-a-better-user-experience/
+px vs rem article: https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/
