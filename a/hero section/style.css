@@ -4,6 +4,7 @@ html {
 
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 .hero-section {
@@ -30,4 +31,18 @@ body {
 .hero-content-div > p {
     font-size: 1.6rem;
 }
+
+.hero-content-div > button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 30px;
+    border: solid 2px white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-content-div > button:hover {
+    transform: scale(1.1);
+}
+
+
 
