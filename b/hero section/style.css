@@ -30,6 +30,7 @@ body {
     color: white;
     background-color: transparent;
     font-size: 1.6rem;
+    transition: transform 0.2s ease-in;
 }
 
 .hero-content-div > h1 {
@@ -39,3 +40,8 @@ body {
 .hero-content-div > p {
     font-size: 2.4rem;
 }
+
+.hero-content-div > button:hover {
+    transform: scale(1.1);
+}
+
