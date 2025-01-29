@@ -5,3 +5,4 @@ html semantic elements: https://www.w3schools.com/html/html5_semantic_elements.a
 css variables: https://www.w3schools.com/css/css3_variables.asp
 rem sizing units: https://www.freecodecamp.org/news/override-root-font-size-for-a-better-user-experience/
 px vs rem article: https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/
+flex shrink, flex grow, flex basis: https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/

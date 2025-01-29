@@ -1,0 +1,42 @@
+/* važno */
+* {
+    box-sizing: border-box
+  }
+  
+
+.section-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-column {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.odd-color {
+    background-color: red;
+}
+
+.even-color {
+    background-color: blue;
+}
+
+.section-image {
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .section-div {
+        flex-wrap: wrap;
+    }
+    .section-column {
+        flex:0 0 100%;
+    }
+}
