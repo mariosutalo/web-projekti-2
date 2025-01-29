@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.section-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.left-div {
+    width: 50%;
+}
+
+.right-div {
+    width: 50%;
+    padding: 20px;
+}
+
+.container-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.action-btn {
+    background: rgb(123, 200, 7);
+    font-weight: 700;
+    padding: 14px 18px;
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .left-div {
+        width: 100%;
+    }
+
+    .right-div {
+        width: 100%;
+    }
+}
