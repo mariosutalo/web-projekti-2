@@ -1,6 +1,12 @@
-html {
+/* html {
     font-size: 62.5%;
+} */
+:root {
+    --16px: calc(16rem/16);
+    --42px: calc(42rem/16);
+    --24px: calc(24rem/16);
 }
+
 body {
     margin: 0;
 }
@@ -29,19 +35,18 @@ body {
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    font-size: 1.6rem;
+    font-size: var(--16px);
     transition: transform 0.2s ease-in;
 }
 
-.hero-content-div > h1 {
-    font-size: 4.2rem;
+.hero-content-div>h1 {
+    font-size: var(--42px);
 }
 
-.hero-content-div > p {
-    font-size: 2.4rem;
+.hero-content-div>p {
+    font-size: var(--24px);
 }
 
-.hero-content-div > button:hover {
+.hero-content-div>button:hover {
     transform: scale(1.1);
 }
-
