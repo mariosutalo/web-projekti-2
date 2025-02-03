@@ -10,7 +10,7 @@
 }
 
 .section-column {
-    flex: 50%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,11 +32,12 @@
     border-radius: 16px;
 }
 
+.row-reverse-section {
+    flex-direction: row-reverse;
+}
+
 @media screen and (max-width: 600px) {
-    .section-div {
-        flex-wrap: wrap;
-    }
     .section-column {
-        flex:0 0 100%;
+        width: 100%;
     }
 }
