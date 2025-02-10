@@ -1,0 +1,6 @@
+- media queries - youtube kids/style.css - napraviti media queries za sve veličine ekrana
+- custom fonts - custom fonts - skinuti font sa interneta i koristiti ga u projektu
+- web shop header - ul, flex: justify content - projekat web shop header
+- responsive layout - napraviti layout da na desktopu budu dva stupca, na mobile-u jedan -  projekat responsive layout
+- css variables - projekat hero section 
+- use of rems - hero section
