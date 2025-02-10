@@ -4,3 +4,4 @@
 - responsive layout - napraviti layout da na desktopu budu dva stupca, na mobile-u jedan -  projekat responsive layout
 - css variables - projekat hero section 
 - use of rems - hero section
+- vrlo vjerovatno ce biti stranica koja ima: header + responsive layout content
