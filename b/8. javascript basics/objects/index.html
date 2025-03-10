@@ -9,13 +9,26 @@
 
 <body>
     <script>
+        // --- Bitno znati o objektima ---
+        // 1. objekti product1, product2, product3 imaju svojstva: name, price, stock
+        // 2. sadržaj objekta se piše u key-value paru, npr, name je key, a value je 'T shirt 1'
+        // 3. objekat može imati: nula, jedan ili više key - value parova
+        // 4. key u objektima nazivamo property (hrvatski: svojstvo)
+        // 5. svojstva se pišu kao tekst bez navodnika, npr: price, ako svojstvo ima više riječi
+        // 5. koristi se camelcase naming konvencija npr: productQuantity
+        // 5. camelCase opis https://developer.mozilla.org/en-US/docs/Glossary/Camel_case
+        // 6. u value (vrijednost) u key-value paru možemo pohraniti: tekst, broj, boolean (true/false), funkciju
+        // 6. drugi objekat, null, undefined...
+
+        // varijabla product1 sadrži instanciran objekat sa popunjenim
         const product1 = {
             name: 'T shirt 1',
             price: 30.5,
-            stock: 1
+            stock: 1,
+            calculateDiscount: function () {}
         }
         const product2 = {
-            name: 'T shirt 1',
+            name: 'T shirt 2',
             price: 40.5,
             stock: 5
         }
@@ -24,10 +37,14 @@
             price: 40,
             stock: 12
         }
-
-        function sumProductsPrice(product1, product2, product3) {
+        //definicija funkcije koja prima 3 parametra: product1, product2, product3
+        function sumProductsPrice(p1, p2, p3) {
+            const sum = p1.price + p2.price + p3.price
+            const average = sum / 3
+            // console.log('Products sum is: ' + sum + ' and average price is: ' + average + '.')
+            console.log(`Products sum is ${sum} and average price is: ${average}.`)
         }
-
+        //poziv funkcije sumProductsPrice sa tri objekta: product1, product2, product3
         sumProductsPrice(product1, product2, product3)
     </script>
 </body>
