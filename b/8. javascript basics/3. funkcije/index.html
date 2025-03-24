@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // sintaksa za pisanje funkcija
+        // 1. napisati ključnu riječ function
+        // 2. odrediti naziv funkcije koristeći camelCase
+        //     2.1 ako je jedna riječ, pišemo sve malim slovima
+        //     2.2 ako je više riječi, prvo slovo drugih riječi - veliko
+        // 3. otvoriti i zatvoriti zagradu
+        //     3.1 funkcija može imati nijedan, jedan ili više argumenata (parametara)
+        //     3.2 argumenti funkcije su varijable koje mogu biti bilo kojeg tipa (string, broj,...)
+        // 4. napisati otvorenu pa zatvorenu vitičastu zagradu
+        // 5. napisati kod u funkciji
+        // 6. funkcije mogu i ne moraju vratiti rezulat
+        //     6.1 fukcije koje ne vraćaju rezulat se zovu void funkcije
+        //     6.2 ako funkcije nesto vraca, onda pozivatelj dobije rezulat natrag
+        //     6.3 calculateCircleSurfaceArea je void funkcija (nema return u svom kodu)
+        //     6.4 funkcija koja vraća neku vrijednost zove se non void funkcija
+        function calculateCircleSurfaceArea(radius) {
+            const surfaceArea = radius * radius * 3.14
+            console.log('Surface area is: ', surfaceArea)
+            console.log(`Surface area is: ${surfaceArea}`)
+            console.log('Surface area is:' + surfaceArea)
+        }
+
+        // 6.5 primjer non void funkcije (fukcija vraća vrijednost)
+        function convertCelsiusToFarenheit(celsius) {
+            const tempInFarenheit = celsius * 1.8 + 32
+            return tempInFarenheit
+        }
+
+        // 7. pokretanje ili poziv funkcije (eng. function call)
+        //     7.1. napisati naziv funkcije
+        //     7.2 otvoriti i zatvoriti zagradu
+        //     7.3 ako su funkciji potrebni parametri, unutar zagrada ih treba unijeti
+        calculateCircleSurfaceArea(20)
+
+        // 7.4 pozivanje funkcije koja vraca vrijednost
+        const tempInFarenheit = convertCelsiusToFarenheit(30)
+        console.log(`Temp in farenheit is: ${tempInFarenheit}`)
+
+        // 8. breakpoints tutorial: https://developer.chrome.com/docs/devtools/javascript/breakpoints
+
+    </script>
+</body>
+</html>
