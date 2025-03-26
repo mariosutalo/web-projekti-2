@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
-    <script> 
-        // javascript
-        // Izrada varijable sa nazivom name
-        // u varijabli name je spremljen string naziva Mario
+    <script>
+        // sintaksa (pravilo) za izradu varijable je:
+        // 1. const ili let - const - varijabla se nakon izrade ne moze mijenjati
+        // let - sadrzaj varijable se moze mijenjati
+        // 2. naziv varijable tekst bez navodnika
+        // 3. znak =
+        // 4. vrijednost
         // ctrl + ? je prečac za komentiranje i odkomentiranje koda
         // u varijable možemo spremati:
         //cijele i decimalne brojeve
-        const height = 20
+        const doorHeight = 20
         // tekst tj. stringove
-        const carBrand = 'bmw'
+        // koristiti jednostruke navodnike za tekst koji je statičan (ne mijenja se)
+        // koristiti `` ako se treba ubaciti sadržaj varijable u tekst
+        const carBrand = 'bmw '
         // boolean (true ili false)
         const billPayed = true
+        // funkcije
+        const returnBiggerNumber = function (number1, number2) {
+            if (number1 > number2) {
+                return number1
+            } else {
+                return number2
+            }
+        }
+
         // objekte (object)
         // objekt sa piše sa {}
         // objekt može imati 0, 1 ili više property/value (brand: 'audi') parova
@@ -33,10 +45,14 @@
                 fuel: 'petrol',
                 model: '2.0 tfsi',
                 consumption: '7.5l/100km'
+            },
+            getCarYear: function () { 
+                return this.year
             }
         }
+        // u varijable također možemo spremati: null, undefined
+        const valueWithNull = null
         //
     </script>
 </body>
-
 </html>

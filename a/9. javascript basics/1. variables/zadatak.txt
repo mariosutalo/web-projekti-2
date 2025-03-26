@@ -1,0 +1,4 @@
+ - Napraviti objekat sa nazivom po želji
+ koji ima 5 svojstvo-vrijednost parova, sa tipovima podataka:
+ string, broj, null, undefined, boolean
+- Nazive svojstava i njihove vrijednosti sami odredite
