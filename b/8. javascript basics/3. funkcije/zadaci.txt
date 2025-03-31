@@ -1,0 +1,6 @@
+Napraviti funkciju koja računa i ispisuje volumen bazena
+Funkcija ima parametre: width, length, height
+Funkcija radi slijedeće:
+ - Računa volumen i sprema ga u varijablu poolVolume
+ - Ispisuje volumen bazena u konzolu
+ - Ispisuje visinu baze u konzolu

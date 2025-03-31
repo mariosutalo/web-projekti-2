@@ -1,0 +1,4 @@
+Napisati funkciju koja prima jedan parametar naziva temperatura
+ako je temperatura manja ili jednaka 15 stupnjeva, napisati da je hladno,
+u suprotnom u konzolu napisati da je vruce
+- kod pisati na engleskom
