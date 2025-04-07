@@ -1,0 +1,13 @@
+1. Napisati funkciju koja prima jedan parametar naziva temperatura
+ako je temperatura manja ili jednaka 15 stupnjeva, napisati da je hladno,
+u suprotnom u konzolu napisati da je vruce
+- kod pisati na engleskom
+
+2. Napraviti funkciju koja prima dva argumenta,
+userName i password. Unutar funkcije provjeriti da li je
+userName jedak vašem imenu i password je jednak 1234
+ako je uvjet zadoovoljen ispisati u konzolu:
+user credentials are correct
+
+pozvati funkciju nekoliko puta sa razlicitim kombinacijama
+imena i lozinke

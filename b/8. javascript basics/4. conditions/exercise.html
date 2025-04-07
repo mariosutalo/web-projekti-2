@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function checkCredentials(username, password) {
+            if(username === 'mario' && password === '1234') {
+                console.log('User credentials are correct')
+            } else if(username === 'mario' || password === '1234') {
+                console.log('your credentials are partially correct')
+            } else {
+                console.log('your credentials are invalid')
+            }
+            console.log('this line is run after conditions')
+        }
+
+        checkCredentials('mario', '1234')
+        checkCredentials('mario', '555')
+        checkCredentials('jhdsjdf', '1234')
+        checkCredentials('ljhjlsd', 'kasdčk')
+
+    </script>
+</body>
+</html>

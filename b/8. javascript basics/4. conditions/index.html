@@ -22,7 +22,7 @@
         //     2. staviti vitičaste zagrade {}
         //     3. unutar () napisati izraz koji mora biti true ili false
         //     4. ako izraz bude true, kod unutar vitičastih zagrada ce se izvrsiti
-                // 5. unutar () možemo pisati i varijable, npr (poolVolume > 300)
+        //     5. unutar () možemo pisati i varijable, npr (poolVolume > 300)
         const poolVolume = 550
         if (poolVolume > 300) {
             console.log('You are rich :)')
@@ -41,6 +41,24 @@
         } else {
             console.log('You are little rich')
         }
+        const carType = 'A4'
+        const carBrand = 'Ferrari'
+        const carBrand2 = 'Opel'
+        // && je and operator ili i operator na hrvatskom
+        // and operator ce vratiti true samo ako su svi uvjeti točni (true)
+        if(carType === 'A4' && carBrand === 'Audi') {
+            console.log('Condition is true')
+        }
+
+        // || - or operator
+        // ako je barem jedan uvjet true onda će or (||) operator vratiti true
+        // i izraz unutar if-a ce se izvrsiti
+        if(carBrand === 'Audi' || carBrand2 === 'Golf') {
+
+        }
+
+
+
 
     </script>
 </body>
