@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Sintaksa za for petlju
+        // 1. napisati for, otvoriti i zatvoriti zagradu
+        // 2. napisati varijablu odabranog naziva i početne vrijednosti
+        // 3. napisati uvjet do kojeg ce sadrzaj varijable povecavati
+        // 4. napisati za koliko se povećava varijabla index(brojač) u for petlji
+        // 5. napisati što će se pokrenuti ako je uvjet for petlje zadovoljen
+        // 6. pokretanja sadrzaja u tijelu for petlje se zove iteracija
+        // 7. 
+        // 7.1 U prvom koraku for petlja napravi varijablu index sa postavljenom vrijedoscu i
+        //  provjeri jel uvjet petlje zadovoljen, ako jeste odradi jednu iteraciju
+        // 7.2 U drugom koraku for petlja provjerava da li uvjet u zagradi zadovoljen
+        //      i ako jeste povecava index za odredjeni broj i odradi slijedecu iteraciju
+        //      sa novom vrijednoscu indexa    
+        // 7.3 For petlja ce raditi iteracije dokle je god uvjet u zagradi istinit (true)
+        for (let index = 0; index < 100; index += 10) {
+            console.log('index value is', index)
+        }
+
+        for (let radius = 5; radius < 55; radius++) {
+            const surfaceArea = radius * radius * 3.14
+            console.log('Circle surface area is:', surfaceArea)
+        }
+    </script>
+</body>
+</html>

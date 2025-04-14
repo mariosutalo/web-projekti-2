@@ -1,0 +1,4 @@
+Napraviti program koji računa 50 povrsina krugova
+kojima polumjer počinje od 5 i ide do 55
+za svaku iteraciju ispisati u konzolu:
+circle surface area is: x 
