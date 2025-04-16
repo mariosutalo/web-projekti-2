@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        3 > 2 - true
+        2 > 3 - false
+        "a" === "b" - false
+        "a" !== "b" - true
+        const poolWaterVolumePercentage = 0.2
+
+        if (3 > 2) {
+            console.log('3 is greater than 2')
+        }
+
+        if (10 > 20) {
+            console.log('10 is greater than 20')
+        } else {
+            console.log('10 is smaller than 20')
+        }
+
+        if (poolWaterVolumePercentage < 0.3) {
+            console.log('pool is low on water')
+        } else if (poolWaterVolumePercentage < 0.6) {
+            console.log('pool is medium on water')
+        } else if (poolWaterVolumePercentage < 0.8) {
+            console.log('pool is almost full')
+        } else {
+            console.log('pool is full')
+        }
+
+        if(poolWaterVolumePercentage > 0.3 && poolWaterVolumePercentage < 0.5) {
+            console.log('Water volume is between 30% and 50%')
+        } else {
+            console.log('water volume in not between 30% and 50%')
+        }
+
+        if(poolWaterVolumePercentage > 0.3 || poolWaterVolumePercentage < 0.5) {
+            console.log('water volume is between 0% and 50%')
+        }
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

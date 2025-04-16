@@ -1,0 +1,5 @@
+Napraviti funkciju koja prima jedan paramater: pcPrice
+funkcija ce ispitati da li je cijena pc-a veća od 500, ako jeste
+u konzolu ispisati tekst pc je skup, ako je manja od 500 u konzolu
+ispisati pc je jeftin
+pozovite funkciju više puta sa razlicitim iznosima
