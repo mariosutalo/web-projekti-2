@@ -1,0 +1,30 @@
+Napisati funkciju koja u konzolu ispisuje 
+stupnjeve na termometru, funkcija treba imati parametre(argumenti):
+početni i krajni stupanj. Ispisati sve stupnjeve u tom rasponu
+pozvati funkciju nekoliko puta za razlicim vrijednostima
+za početni i krajni stupanj. primjer ispisa u konzoli
+-20c
+-19c
+...
+50c
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function printCelsius(startCelsius, endCelsius) {
+            for (let index = startCelsius; index <= endCelsius; index++) {
+                console.log(`${index}C`)
+            }
+        }
+        printCelsius(-20, 50)
+        printCelsius(10, 100)
+        printCelsius(-50, 40)
+    </script>
+</body>
+</html>
