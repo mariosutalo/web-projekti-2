@@ -1,0 +1,29 @@
+<!-- a: Napraviti datoteku displayTemp.html
+Ispisati pomoću while petlje stupnjeve na toplomjeru
+kojima je raspon od -20c do 50c.
+U konzoli za svaku iteraciju petlje treba pisati
+Npr: Temp in celsius is: 1C
+
+b: kod prilagoditi i staviti u funkciju koja
+prima dva argumenta (startTemp i endTemp)
+pozvati funkciju nekoliko puta sa razlicitim argumentima -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function displayTemp(startTemp, endTemp) {
+            while (startTemp < endTemp) {
+                console.log('Temp is', startTemp)
+                startTemp++
+            }
+        }
+        displayTemp(-10, 30)
+        displayTemp(20, 100)
+    </script>
+</body>
+</html>
