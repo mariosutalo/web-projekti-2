@@ -1,0 +1,52 @@
+<!--
+Ispisati pomoću while petlje stupnjeve na toplomjeru
+kojima je raspon od -20c do 50c.
+U konzoli za svaku iteraciju petlje treba pisati
+Npr: Temp in celsius is: 1C
+
+
+b: kod prilagoditi i staviti u funkciju koja
+prima dva argumenta (startTemp i endTemp)
+pozvati funkciju nekoliko puta sa razlicitim argumentima
+npr: displayTemp(10, 30), displayTemp(-30, 100)
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function displayTemp(startTemp, endTemp) {
+            let runWhileLoop = true
+            while (startTemp < endTemp && runWhileLoop === true) {
+                console.log(`Temp in celsius ${startTemp}C`)
+                startTemp++
+                if(startTemp === 500) {
+                    runWhileLoop = false
+                }
+            }
+        }
+        displayTemp(10, 3000)
+        displayTemp(-10, 10)
+        displayTemp(0, 30)
+    </script>
+</body>
+
+</html>
+
+
+
+<!--
+Ispisati pomoću while petlje stupnjeve na toplomjeru
+kojima je raspon od -20c do 50c.
+U konzoli za svaku iteraciju petlje treba pisati
+Npr: Temp in celsius is: 1C
+
+b: kod prilagoditi i staviti u funkciju koja
+prima dva argumenta (startTemp i endTemp)
+pozvati funkciju nekoliko puta sa razlicitim argumentima -->
