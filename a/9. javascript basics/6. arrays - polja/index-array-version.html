@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const receiptItems = [
+            {
+                name: 'Mlijeko 1l', 
+                price: 2, 
+                quantity: 3,
+                total: 6
+            },
+            {
+                name: 'Mlijeko 2l',
+                price: 3,
+                quantity: 3,
+                total: 9
+            },
+            {
+                name: 'Mlijeko 3l',
+                price: 1,
+                quantity: 3,
+                total: 3
+            },
+            {
+                name: 'Mlijeko 4l',
+                price: 4,
+                quantity: 3,
+                total: 12
+            },
+            {
+                name: 'Mlijeko 5l',
+                price: 5,
+                quantity: 3,
+                total: 15
+            },
+            {
+                name: 'Mlijeko 1l', 
+                price: 2, 
+                quantity: 3,
+                total: 6
+            },
+            {
+                name: 'Mlijeko 2l',
+                price: 3,
+                quantity: 3,
+                total: 9
+            },
+            {
+                name: 'Mlijeko 3l',
+                price: 1,
+                quantity: 3,
+                total: 3
+            },
+            {
+                name: 'Mlijeko 4l',
+                price: 4,
+                quantity: 3,
+                total: 12
+            },
+            {
+                name: 'Mlijeko 5l',
+                price: 5,
+                quantity: 3,
+                total: 15
+            },
+            {
+                name: 'Mlijeko 1l', 
+                price: 2, 
+                quantity: 3,
+                total: 6
+            },
+            {
+                name: 'Mlijeko 2l',
+                price: 3,
+                quantity: 3,
+                total: 9
+            },
+            {
+                name: 'Mlijeko 3l',
+                price: 1,
+                quantity: 3,
+                total: 3
+            },
+            {
+                name: 'Mlijeko 4l',
+                price: 4,
+                quantity: 3,
+                total: 12
+            },
+            {
+                name: 'Mlijeko 5l',
+                price: 5,
+                quantity: 3,
+                total: 15
+            },
+            {
+                name: 'Mlijeko 1l', 
+                price: 2, 
+                quantity: 3,
+                total: 6
+            },
+            {
+                name: 'Mlijeko 2l',
+                price: 3,
+                quantity: 3,
+                total: 9
+            },
+            {
+                name: 'Mlijeko 3l',
+                price: 1,
+                quantity: 3,
+                total: 3
+            },
+            {
+                name: 'Mlijeko 4l',
+                price: 4,
+                quantity: 3,
+                total: 12
+            },
+            {
+                name: 'Mlijeko 5l',
+                price: 5,
+                quantity: 3,
+                total: 15
+            },
+            {
+                name: 'Mlijeko 1l', 
+                price: 2, 
+                quantity: 3,
+                total: 6
+            },
+            {
+                name: 'Mlijeko 2l',
+                price: 3,
+                quantity: 3,
+                total: 9
+            },
+            {
+                name: 'Mlijeko 3l',
+                price: 1,
+                quantity: 3,
+                total: 3
+            },
+            {
+                name: 'Mlijeko 4l',
+                price: 4,
+                quantity: 3,
+                total: 12
+            },
+            {
+                name: 'Mlijeko 5l',
+                price: 5,
+                quantity: 3,
+                total: 15
+            },
+            {
+                name: 'Mlijeko 1l', 
+                price: 2, 
+                quantity: 3,
+                total: 6
+            },
+            {
+                name: 'Mlijeko 2l',
+                price: 3,
+                quantity: 3,
+                total: 9
+            },
+            {
+                name: 'Mlijeko 3l',
+                price: 1,
+                quantity: 3,
+                total: 3
+            },
+            {
+                name: 'Mlijeko 4l',
+                price: 4,
+                quantity: 3,
+                total: 12
+            },
+            {
+                name: 'Mlijeko 5l',
+                price: 5,
+                quantity: 3,
+                total: 15
+            },
+            {
+                name: 'Mlijeko 1l', 
+                price: 2, 
+                quantity: 3,
+                total: 6
+            },
+            {
+                name: 'Mlijeko 2l',
+                price: 3,
+                quantity: 3,
+                total: 9
+            },
+            {
+                name: 'Mlijeko 3l',
+                price: 1,
+                quantity: 3,
+                total: 3
+            },
+            {
+                name: 'Mlijeko 4l',
+                price: 4,
+                quantity: 3,
+                total: 12
+            },
+            {
+                name: 'Mlijeko 5l',
+                price: 5,
+                quantity: 3,
+                total: 15
+            },
+            {
+                name: 'Mlijeko 1l', 
+                price: 2, 
+                quantity: 3,
+                total: 6
+            },
+            {
+                name: 'Mlijeko 2l',
+                price: 3,
+                quantity: 3,
+                total: 9
+            },
+            {
+                name: 'Mlijeko 3l',
+                price: 1,
+                quantity: 3,
+                total: 3
+            },
+            {
+                name: 'Mlijeko 4l',
+                price: 4,
+                quantity: 3,
+                total: 12
+            },
+            {
+                name: 'Mlijeko 5l',
+                price: 5,
+                quantity: 3,
+                total: 15
+            },
+            {
+                name: 'Mlijeko 1l', 
+                price: 2, 
+                quantity: 3,
+                total: 6
+            },
+            {
+                name: 'Mlijeko 2l',
+                price: 3,
+                quantity: 3,
+                total: 9
+            },
+            {
+                name: 'Mlijeko 3l',
+                price: 1,
+                quantity: 3,
+                total: 3
+            },
+            {
+                name: 'Mlijeko 4l',
+                price: 4,
+                quantity: 3,
+                total: 12
+            },
+            {
+                name: 'Mlijeko 5l',
+                price: 5,
+                quantity: 3,
+                total: 15
+            },
+            {
+                name: 'Mlijeko 1l', 
+                price: 2, 
+                quantity: 3,
+                total: 6
+            },
+            {
+                name: 'Mlijeko 2l',
+                price: 3,
+                quantity: 3,
+                total: 9
+            },
+            {
+                name: 'Mlijeko 3l',
+                price: 1,
+                quantity: 3,
+                total: 3
+            },
+            {
+                name: 'Mlijeko 4l',
+                price: 4,
+                quantity: 3,
+                total: 12
+            },
+            {
+                name: 'Mlijeko 5l',
+                price: 5,
+                quantity: 3,
+                total: 15
+            },
+        ]
+            // Primjer pristupa vrijednosti u polju (array)
+            const receiptItem = receiptItems[0]
+
+            // koliko polje ima elemenata, npr. 5
+            const arraySize = receiptItems.length
+            console.log('Receipt array size is: ', arraySize)
+
+            let receiptItemsTotal = 0
+            for (let index = 0; index < receiptItems.length; index++) {
+                const item = receiptItems[index];
+                receiptItemsTotal = receiptItemsTotal + item.total
+                // console.log('Item description: ', item)
+            }
+            console.log(`Total receipt items is: ${receiptItemsTotal}`)
+
+    </script>
+</body>
+
+</html>

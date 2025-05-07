@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Napraviti pet objekata tipa stavke racuna
+    a) Svaka objekt stavka ima svojstva: naziv artikla, količina
+    cijena, ukupno
+    b) izračunati koliko je ukupan iznos svih stavki 
+    za platiti na računu i ispisati u konzolu -->
+
+    <script>
+        const item1 = {
+            name: 'Mlijeko 1l',
+            price: 2,
+            quantity: 3,
+            total: 6
+        }
+        const item2 = {
+            name: 'Mlijeko 2l',
+            price: 3,
+            quantity: 3,
+            total: 9
+        }
+        const item3 = {
+            name: 'Mlijeko 3l',
+            price: 1,
+            quantity: 3,
+            total: 3
+        }
+        const item4 = {
+            name: 'Mlijeko 4l',
+            price: 4,
+            quantity: 3,
+            total: 12
+        }
+        const item5 = {
+            name: 'Mlijeko 5l',
+            price: 5,
+            quantity: 3,
+            total: 15
+        }
+        const receiptItemsTotal = item1.total + item2.total + item3.total + item4.total + item5.total
+        console.log(`Receipt total amount is: ${receiptItemsTotal}`)
+    </script>
+</body>
+
+</html>
