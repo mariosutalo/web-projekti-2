@@ -1,0 +1,37 @@
+<!-- - Unijeti 10 proizvoljnih brojeva u polje
+a) pomoću for petlje zbrojiti sve brojeve iz polja i 
+ispisati u konzolu: Sum of all numbers is: number
+b) prebrojati i ispisati u konzolu koliko je brojeva većih od 100
+npr: Numbers count greather than 100 is:number -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        const numbers = [101, 92, 3000, 400, 5, 62, 73, 801, 910, 10];
+        numbers.push(23)
+        numbers.push(310)
+        numbers.pop()
+        let sum = 0
+        let numberGreatherThan100 = 0
+        for (let i = 0; i < numbers.length; i++) {
+            sum += numbers[i]
+            if (numbers[i] > 100) {
+                numberGreatherThan100++
+            }
+        }
+        console.log(`Numbers count greather than 100 is ${numberGreatherThan100}`)
+        console.log("Sum of all numbers is:", sum)
+
+    </script>
+</body>
+
+</html>
