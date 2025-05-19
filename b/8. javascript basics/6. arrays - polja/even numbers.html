@@ -1,0 +1,35 @@
+<!-- 1. Napraviti polje sa 10 nasumičnih brojeva
+2. Ispisati u konzolu broj parnih brojeva u polju -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const numbers = [101, 34, 3000, 400, 5, 62, 73, 801, 910, 10]
+        const numbers2 = [101, 111, 3000, 400, 5, 62, 73, 801, 910, 10]
+        const numbers3 = [101, 34, 3000, 400, 6, 62, 73, 801, 910, 10]
+
+        function printEvenNumbers(numbers) {
+            let counter = 0
+            for (let index = 0; index < numbers.length; index++) {
+                const element = numbers[index];
+                if (element % 2 === 0) {
+                    counter++
+                }
+            }
+            console.log(`Even numbers count is: ${counter}`)
+        }
+        printEvenNumbers(numbers)
+        printEvenNumbers(numbers2)
+        printEvenNumbers(numbers3)
+
+    </script>
+</body>
+
+</html>
