@@ -1,0 +1,12 @@
+Zadatak1. Varijable
+Napraviti program u kojem ste napravili 4 varijable, varijable trebaju biti tipa: broj, text, boolean, polje(array).
+Sami smislite imena varijabli i njihov sadržaj. Nakon toga u konzolu ispisati naziv svake varijable i njenu vrijednost
+Npr. Variable name is airHumidity, value is 80
+
+
+Zadatak2. Napravi niz (array) objekata učenika. Svaki objekt treba sadržavati: name (string), grade (number).
+Unesite 5 učenika sa ocjenama. Napiši funkciju pod imenom printStudentsData() koja pomoću for petlje prolazi kroz array
+učenika i u konzolu ispisuje ime učenike i da li je učenik prošao sa odličnim.
+Učenik je odličan ako ima prosjek ocjena veći ili jednak od 4.5
+Primjer ispisa za odličnog učenika: Student name is Tom and he is excellent student.
+Primjer ispisa za ostale učenike: Student name is John and he is not excellent student.
