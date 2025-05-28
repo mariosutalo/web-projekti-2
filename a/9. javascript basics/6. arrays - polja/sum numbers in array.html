@@ -1,0 +1,31 @@
+<!-- Unijeti 5 brojeva u polje i te brojeve zbrojiti
+i ispisati ukupan zbroj u konzolu -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const numbers = [24, 21, 24, 12, 10, 24, 21, 24, 12, 10, 24, 21, 24, 12, 10]
+        // this is incorrect implementation
+        const sumOfNumberBadWay = numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4]
+        console.log('Sum of numbers bad way in array is', sumOfNumberBadWay)
+        // end of incorrect implementation
+
+        // correct implementation
+        let sumOfNumberRightWay = 0
+        for (let index = 0; index < numbers.length; index++) {
+            const element = numbers[index]
+            sumOfNumberRightWay = sumOfNumberRightWay + element
+        }
+        console.log('Sum of number right way is', sumOfNumberRightWay)
+    </script>
+</body>
+
+</html>
