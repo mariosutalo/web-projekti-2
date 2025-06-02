@@ -1,3 +1,0 @@
---skinuti font sa interneta koji god želite, google fonts
---koristiti css varijable za boje i veličine fontova
---koristiti rem-ove za veličine fontova

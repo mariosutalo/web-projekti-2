@@ -1,0 +1,11 @@
+Zadatak1. Varijable
+Napraviti program u kojem ste napravili 4 varijable, varijable trebaju biti tipa: broj, text, boolean, polje(array).
+Sami smislite imena varijabli i njihov sadržaj. Nakon toga u konzolu ispisati naziv svake varijable i njenu vrijednost
+Npr. Variable name is airHumidity, value is 80
+
+
+Zadatak2. Napravi niz (array) objekata automobila. Svaki objekt treba sadržavati: brand (string), make(string), power (number).
+Unesite 5 automobila. Npr.: brand: Audi, make:a4, power:80.  Napiši funkciju pod imenom printCarsData() koja pomoću for petlje prolazi kroz array
+automobila i u konzolu ispisuje: brand, naziv automobila(make) i da li auto ima snagu veću od 100kw. Primjer ispisa:
+Ako ima više od 100kw: Car brand is Audi, make is a4 and car has more than 100kw of power
+Ako ima manje od 100kw: Car brand is Audi, make is a4 and car has less than 100km of power 
