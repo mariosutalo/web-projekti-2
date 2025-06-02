@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="text-input">
+    <button onclick="displayInputContent()">Display input content</button>
+    <p id="text-p">Hi</p>
+
+    <script>
+        function displayInputContent() {
+            const inputElement = document.getElementById('text-input')
+            const inputValue = inputElement.value
+            const textElement = document.getElementById('text-p')
+            textElement.textContent = inputValue
+        }
+    </script>
+</body>
+</html>
