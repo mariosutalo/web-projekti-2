@@ -6,17 +6,26 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text" id="text-input">
-    <button onclick="displayInputContent()">Display input content</button>
-    <p id="text-p">Hi</p>
+    <input type="text" id="name-input">
+    <!-- Onclick je jedan od mnogo evenata koji se mogu dodati
+    svim html elementima. Kada kliknemo na dugme, pokrene se displayName
+    funkcija -->
+    <button onclick="displayName()">Display name</button>
+
+    <!-- Da mi mogli pristupiti html elementu iz javascripta
+    potrebno mu je dodati id, u ovom slučaju id je name-p
+    Id može biti bilo što, ali je poželjno da se držimo određenih pravila
+    da bi se olaškalo pisanje koda -->
+    <p id="name-p"></p>
 
     <script>
-        function displayInputContent() {
-            const inputElement = document.getElementById('text-input')
-            const inputValue = inputElement.value
-            const textElement = document.getElementById('text-p')
-            textElement.textContent = inputValue
+        // Funkcija koju poziva onclick event na dugmetu
+        function displayName() {
+            const textInput = document.getElementById('name-input')
+            const p = document.getElementById('name-p')
+            p.textContent = textInput.value
         }
     </script>
+
 </body>
 </html>
